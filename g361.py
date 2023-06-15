@@ -9,3 +9,6 @@ def max_value(V, S):
         l.append(res)
 
     return max(l)
+
+def max_value_indices(V, S):
+    pass

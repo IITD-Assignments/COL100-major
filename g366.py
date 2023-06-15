@@ -9,3 +9,6 @@ def max_value(V, S):
                     dp[i][j] = max(dp[i-S[i-1]][j-V[j-1]] + V[j-1], dp[i-1][j-1])
 
     return dp[len(S)][len(V)]
+
+def max_value_indices(V, S):
+    pass

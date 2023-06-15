@@ -15,3 +15,6 @@ def max_value(V, S):
             else:
                 M[i][j] = 0
     return M[n][n]
+
+def max_value_indices(V, S):
+    pass

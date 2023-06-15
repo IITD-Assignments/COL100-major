@@ -12,3 +12,6 @@ def max_value(V, S):
     print(f"DP array: {dp}")
 
     return dp[0]
+
+def max_value_indices(V, S):
+    pass
