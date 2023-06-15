@@ -1,6 +1,6 @@
 # commit.sh 371 372
 
-git add "f${1}.py"
-git commit -m "feat: create f${1}.py"
-cp "__f.py" "f${2}.py"
-code "f${2}.py"
+git add "g${1}.py"
+git commit -m "feat: create g${1}.py"
+cp "__g.py" "g${2}.py"
+code "g${2}.py"
