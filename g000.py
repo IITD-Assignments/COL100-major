@@ -9,4 +9,6 @@ def max_value(V, S):
         else:
             dp[i] = V[i]
     
+    print(f"DP array: {dp}")
+
     return dp[0]
